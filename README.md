@@ -15,3 +15,6 @@ https://gateway.mcpservers.org/yahoo-finance/mcp
 - `/yahoo-finance/mcp` wraps [yahoo-finance2](https://github.com/gadicc/yahoo-finance2); no auth required.
 
 All endpoints except `/yahoo-finance/mcp` use MCP `Authorization: Bearer <token>`.
+
+The endpoints implement the stateless MCP `2026-07-28` protocol and retain the
+Agents SDK's stateless compatibility path for ordinary legacy clients.
